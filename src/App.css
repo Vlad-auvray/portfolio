@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: "Radikal";
+    src:
+    url("./assets/font/Radikal.woff2") format('woff2'),
+    url('./assets/font/Radikal.woff') format('woff');
+}
 /* Base */
 html,
 body {
@@ -7,12 +14,7 @@ body {
 
 /* Polices */
 
-@font-face {
-    font-family: "Radikal";
-    src:
-    url("./assets/font/Radikal.woff2") format('woff2'),
-    url('./assets/font/Radikal.woff') format('woff');
-}
+
 
 
 * {
