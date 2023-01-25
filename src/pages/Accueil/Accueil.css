@@ -1,0 +1,57 @@
+
+.Accueil{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+h2 {
+    align-self: flex-start;
+    padding-bottom: 15px;
+}
+
+.liste-experiences{
+    background-color: #60409664;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 22px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cv-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cv-btn{    
+    color: #604096;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.cv-btn:hover{
+    cursor: pointer;
+}
+
+
+
+
+@media screen  and (max-width: 1490px) {
+    .Accueil  {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .liste-experiences {
+        background-color: unset;
+        gap: 50px;
+        padding: 5% 1%;
+      
+    }
+}

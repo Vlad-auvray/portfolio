@@ -1,0 +1,42 @@
+.tuile {
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    width: 450px;
+    height: 380px;
+    transition: transform 1s;
+}
+.tuile:hover {
+    background: linear-gradient(360deg, #604096 15%, #000000a6 100%);
+    cursor: pointer;
+}
+
+.tuile-image {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 99%;
+    height: 99%;
+}
+.tuile:hover > .tuile-image {
+    opacity: 0.30;
+}
+
+
+.tuile-titre {
+    bottom: 20px;
+    color: white;
+    font-size: 18px;
+    left: 20px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1490px) {
+    .tuile {
+        min-height: 255px;
+    }
+}

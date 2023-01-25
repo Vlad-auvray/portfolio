@@ -1,0 +1,50 @@
+.More {
+    color:#604096;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.More-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+
+.story{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: justify;
+}
+
+.story p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.story span {
+    font-style: italic;
+}
+
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.video-bloc{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}

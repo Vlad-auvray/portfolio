@@ -1,0 +1,29 @@
+.form-bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+    width: 550px;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: #604094;
+}
+
+.msg-box{
+   line-height: 3.5rem; 
+}
+
+.snd-btn{
+    margin-top: 8px;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: #604094;
+    background-color: #60409459;
+    color: white;
+}
+
+.snd-btn:hover {
+    cursor: pointer;
+}

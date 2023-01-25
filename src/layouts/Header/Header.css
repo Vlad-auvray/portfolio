@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 40px 10%;
+  width: auto;
+  position: relative;
+  background-color: #604096;
+
+}
+
+header > img {
+  height: 68px;
+}
+
+nav {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.lien-site {
+  color: #604096;
+  margin: auto 25px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.lien-site:hover {
+  color: #000000;
+}
+
+.lien-menu.active {
+    border-bottom: 1px solid #604096;
+}
+
+@media screen and (max-width: 1490px) {
+  header {
+    margin: 40px 2.5%;
+    width: 95%;
+  }
+  
+  header > img {
+    height: 47px;
+  }
+
+  .lien-site {
+    margin: auto 5px;
+  }
+}
