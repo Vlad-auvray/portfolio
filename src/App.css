@@ -9,8 +9,12 @@ body {
 
 @font-face {
     font-family: "Radikal";
-    src: url("./assets/font/Nootype - Radikal.otf");
+    src: url("./assets/font/Nootype - Radikal.otf"),
+    url("./assets/font/Nootype - Radikal Bold.otf"),
+    url("./assets/font/Nootype - Radikal Bold Italic.otf"),
+    url("./assets/font/Nootype - Radikal Italic.otf");
 }
+
 * {
     font-family: "Radikal";
     box-sizing: border-box;
