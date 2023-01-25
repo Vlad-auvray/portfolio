@@ -6,6 +6,11 @@ body {
 }
 
 /* Polices */
+
+@font-face {
+    font-family: "Radikal";
+    src: url("./assets/font/Nootype\ -\ Radikal.otf");
+}
 * {
     font-family: "Radikal";
     box-sizing: border-box;
