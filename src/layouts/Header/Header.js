@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 
 function Header() {
     return(
-        <header>
+        <header className="header">
      
            <Navbar></Navbar>
         </header>
