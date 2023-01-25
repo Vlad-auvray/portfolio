@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     align-content: space-between;
-    height: 600px;
+    height: 500px;
     width: auto;
     padding: 20px 20px;
 }
 
 a{
     text-decoration-line: none;
+    color: #604094;
 }
 
 .profil{
@@ -19,8 +20,9 @@ a{
 }
 
 .presentation-text{
-    font-size: 40px;
+    font-size: 30px;
     text-align: justify;
+    padding-left: 10%;
 }
 
 @media screen and (max-width: 1490px) {
@@ -33,6 +35,6 @@ a{
     }
   }
  .profil{
-    
-    width: 30%;
+    padding-right: 0;
+    width: 200px;
  }

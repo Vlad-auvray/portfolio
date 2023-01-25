@@ -22,13 +22,11 @@
     font-style: normal;
   }
   
-  .navigation-menu {
-    margin-left: auto;
-  }
+  
   
   .navigation-menu ul {
     display: flex;
-    padding: 0;
+    padding-left: 50%;
   }
   
   .navigation-menu li {
@@ -70,14 +68,13 @@
   
     .navigation-menu ul {
       flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
+      position: relative;
       width: 100%;
-      height: calc(100vh - 60px);
+      height: auto;
       background-color: white;
       border-top: 1px solid black;
       display: none;
+      padding-left: 0;
     }
   
     .navigation-menu li {

@@ -27,3 +27,10 @@
 .snd-btn:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 550px) {
+    .form-bloc {
+        width: 95%;
+    }
+    
+    }
