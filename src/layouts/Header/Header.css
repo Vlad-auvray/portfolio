@@ -40,6 +40,9 @@ h1 {
   header {
     margin: 40px 2.5%;
     width: 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   header > img {
@@ -49,4 +52,8 @@ h1 {
   .lien-site {
     margin: auto 5px;
   }
+}
+
+.navigation-menu {
+  z-index: 100;
 }

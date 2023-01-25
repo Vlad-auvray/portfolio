@@ -40,3 +40,14 @@
         min-height: 255px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .tuile {
+       height: 150px;
+        width: 200px;
+    }
+
+    .tuile-titre {
+        font-size: 12px;
+    }
+}

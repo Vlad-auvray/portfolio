@@ -51,16 +51,19 @@
     width: 40px;
     padding: 0.5rem;
       cursor: pointer;
-    position: absolute;
     top: 50%;
     right: 25px;
-    transform: translateY(-50%);
     display: none;
   }
   
 
   
   @media screen and (max-width: 550px) {
+
+   .brand-name{
+    font-size: 20px;
+   }
+
     .hamburger {
       display: block;
     }
@@ -95,5 +98,12 @@
     .navigation-menu.expanded ul {
       display: block;
     }
+
+    .navigation {
+      flex-direction: column;
+      height: auto;
+    }
   }
+
+
   
