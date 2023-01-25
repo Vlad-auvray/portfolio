@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ceae62a9.css",
+    "main.js": "/portfolio/static/js/main.54fc8051.js",
+    "static/js/651.ee4d5d8c.chunk.js": "/portfolio/static/js/651.ee4d5d8c.chunk.js",
+    "static/media/profil.webp": "/portfolio/static/media/profil.0733d87b4cfddb384001.webp",
+    "static/media/kasa-img.webp": "/portfolio/static/media/kasa-img.21fda852d8f61a29890f.webp",
+    "static/media/panthère-img.webp": "/portfolio/static/media/panthère-img.3c20980e230c4851596e.webp",
+    "static/media/kanap-img.webp": "/portfolio/static/media/kanap-img.8fb2d4c0158c32871554.webp",
+    "static/media/OMF-img.webp": "/portfolio/static/media/OMF-img.2d97897d52b9691d9e59.webp",
+    "static/media/booki-img.webp": "/portfolio/static/media/booki-img.de44b346e9dce095e763.webp",
+    "static/media/Hottakes-img.webp": "/portfolio/static/media/Hottakes-img.6f5426174aa0d9163014.webp",
+    "static/media/main.webp": "/portfolio/static/media/main.9cee90273a8c7bd272a2.webp",
+    "index.html": "/portfolio/index.html",
+    "main.ceae62a9.css.map": "/portfolio/static/css/main.ceae62a9.css.map",
+    "main.54fc8051.js.map": "/portfolio/static/js/main.54fc8051.js.map",
+    "651.ee4d5d8c.chunk.js.map": "/portfolio/static/js/651.ee4d5d8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceae62a9.css",
+    "static/js/main.54fc8051.js"
+  ]
+}
